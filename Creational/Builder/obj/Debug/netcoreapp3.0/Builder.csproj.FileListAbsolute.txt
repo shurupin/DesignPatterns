@@ -1,0 +1,11 @@
+C:\code\DesignPatterns\Creational\Builder\bin\Debug\netcoreapp3.0\Builder.exe
+C:\code\DesignPatterns\Creational\Builder\bin\Debug\netcoreapp3.0\Builder.deps.json
+C:\code\DesignPatterns\Creational\Builder\bin\Debug\netcoreapp3.0\Builder.runtimeconfig.json
+C:\code\DesignPatterns\Creational\Builder\bin\Debug\netcoreapp3.0\Builder.runtimeconfig.dev.json
+C:\code\DesignPatterns\Creational\Builder\bin\Debug\netcoreapp3.0\Builder.dll
+C:\code\DesignPatterns\Creational\Builder\bin\Debug\netcoreapp3.0\Builder.pdb
+C:\code\DesignPatterns\Creational\Builder\obj\Debug\netcoreapp3.0\Builder.AssemblyInfoInputs.cache
+C:\code\DesignPatterns\Creational\Builder\obj\Debug\netcoreapp3.0\Builder.AssemblyInfo.cs
+C:\code\DesignPatterns\Creational\Builder\obj\Debug\netcoreapp3.0\Builder.dll
+C:\code\DesignPatterns\Creational\Builder\obj\Debug\netcoreapp3.0\Builder.pdb
+C:\code\DesignPatterns\Creational\Builder\obj\Debug\netcoreapp3.0\Builder.csprojAssemblyReference.cache
