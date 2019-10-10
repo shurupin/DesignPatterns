@@ -4,14 +4,14 @@ Design patterns are typical solutions to common problems in software design. Eac
 ## Types of Design Patterns
 This series covers 22 of the Gang of Four's patterns. List of Design Pattern Implementations:
 
-Creational Patterns:
+#### Creational Patterns:
 * [Abstract Factory](/AbstractFactory)
-* [Builder](/Builder)
+* [Builder](/Creational/Builder)
 * [Factory Method](/FactoryMethod)
 * [Prototype](/Prototype)
-* [Singleton](/Singleton)
+* [Singleton](/Creational/Singleton)
 
-Structural Patterns:
+#### Structural Patterns:
 * [Adapter](/Adapter)
 * [Bridge](/Bridge)
 * [Composite](/Composite)
@@ -20,7 +20,7 @@ Structural Patterns:
 * [Flyweight](/Flyweight)
 * [Proxy](/Proxy)
 
-Behavioral Patterns:  
+#### Behavioral Patterns:  
 * [Chain of Responsibility](/ChainOfResponsibility)
 * [Command](/Command)
 * [Iterator](/Iterator)

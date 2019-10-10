@@ -9,7 +9,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{E66F53B0-FDFD-40E7-AE20-7DED407F0EA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Creational\Builder\Builder.csproj", "{C5B5762A-C4E7-4C35-86D3-EF7CBE66ABEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Creational\Builder\Builder.csproj", "{C5B5762A-C4E7-4C35-86D3-EF7CBE66ABEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C76CBF33-15B8-4FB1-BC68-5C9544DB1A38}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Creational\Singleton\Singleton.csproj", "{097C74B3-1C5B-4ADC-A358-48720F16B470}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,12 +28,17 @@ Global
 		{C5B5762A-C4E7-4C35-86D3-EF7CBE66ABEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5B5762A-C4E7-4C35-86D3-EF7CBE66ABEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5B5762A-C4E7-4C35-86D3-EF7CBE66ABEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{097C74B3-1C5B-4ADC-A358-48720F16B470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{097C74B3-1C5B-4ADC-A358-48720F16B470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{097C74B3-1C5B-4ADC-A358-48720F16B470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{097C74B3-1C5B-4ADC-A358-48720F16B470}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C5B5762A-C4E7-4C35-86D3-EF7CBE66ABEA} = {F930DD78-BA50-4D2C-B487-93030713938F}
+		{097C74B3-1C5B-4ADC-A358-48720F16B470} = {F930DD78-BA50-4D2C-B487-93030713938F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BF5F0596-3475-4849-AC60-FC7024DFFDC2}

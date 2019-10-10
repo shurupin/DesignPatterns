@@ -1,5 +1,6 @@
 ﻿namespace Builder
 {
+    // The builder class specifies methods for creating (manipulating) the different parts of the object
     public class HamburgerBuilder
     {
         private bool _hasBread;
