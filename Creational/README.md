@@ -1,8 +1,11 @@
 Creational patterns provide various object creation mechanisms, which increase flexibility and reuse of existing code.
 
-#### [Creational Patterns](/Creational)
-* [Abstract Factory](/Creational/AbstractFactory)
-* [Builder](/Creational/Builder)
-* [Factory Method](/Creational/FactoryMethod)
-* [Prototype](/Creational/Prototype)
-* [Singleton](/Creational/Singleton)
+## [Creational](/Creational)
+
+Patterns that flexibly create and instantiate objects.
+
+- [Abstract Factory](/Creational/AbstractFactory) groups object factories that have a common theme.
+- [Builder](/Creational/Builder) constructs complex objects by separating construction and representation.
+- [Factory Method](/Creational/FactoryMethod) creates objects without specifying the exact class to create.
+- [Prototype](/Creational/Prototype) creates objects by cloning an existing object.
+- [Singleton](/Creational/Singleton) restricts object creation for a class to only one instance.
