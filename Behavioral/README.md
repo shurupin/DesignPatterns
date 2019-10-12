@@ -1,8 +1,6 @@
-Behavioral design patterns are concerned with algorithms and the assignment of responsibilities between objects.
+## Behavioral
 
-## [Behavioral](/Behavioral)
-
-Patterns that specifically concern the communication between objects.
+Patterns that specifically concern the communication and the assignment of responsibilities between objects.
 
 - [Chain of Responsibility](/Behavioral/ChainOfResponsibility) delegates commands to a chain of processing objects.
 - [Command](/Behavioral/Command) creates objects which encapsulate actions and parameters.

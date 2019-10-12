@@ -4,8 +4,11 @@
     {
         private static void Main()
         {
-            var blackRaven = new BlackRaven();
-            var ravenAdapter = new RavenAdapter(blackRaven);
+            WhiteDuck whiteDuck = new WhiteDuck();
+            whiteDuck.Quack();
+
+            BlackRaven blackRaven = new BlackRaven();
+            RavenAdapter ravenAdapter = new RavenAdapter(blackRaven);
             ravenAdapter.Quack();
         }
     }

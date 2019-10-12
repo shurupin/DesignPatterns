@@ -1,6 +1,4 @@
-Creational patterns provide various object creation mechanisms, which increase flexibility and reuse of existing code.
-
-## [Creational](/Creational)
+## Creational
 
 Patterns that flexibly create and instantiate objects.
 

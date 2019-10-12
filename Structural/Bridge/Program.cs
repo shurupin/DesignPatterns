@@ -6,11 +6,12 @@
         {
             IWeapon weapon1 = new Knife(new PoisoningEffect());
             weapon1.Stab();
-            
-            IWeapon weapon2 = new Dagger(new PoisoningEffect());
+
+            IWeapon weapon2 = new Knife(new ParalysisEffect());
             weapon2.Stab();
 
-            IWeapon weapon3 = new Knife(new ParalysisEffect());
+
+            IWeapon weapon3 = new Dagger(new PoisoningEffect());
             weapon3.Stab();
         }
     }

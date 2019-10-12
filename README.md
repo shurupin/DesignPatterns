@@ -1,6 +1,6 @@
 # Design Patterns
 
-Design patterns are typical solutions to common problems in software design. This repository contains of 22 of the Gang of Four's patterns.
+Design patterns are typical solutions to common problems in software design. This repository contains 22 of the Gang of Four's patterns.
 
 
 ## [Creational](/Creational)
@@ -17,17 +17,17 @@ Patterns that flexibly create and instantiate objects.
 
 Patterns that define ways to compose objects to obtain new functionality.
 
-- [Adapter](/Structural/Adapter) allows classes with incompatible interfaces to work together.
+- [Adapter](/Structural/Adapter) allows classes with incompatible interfaces to collaborate.
 - [Bridge](/Structural/Bridge) decouples an abstraction from its implementation so that the two can vary independently.
 - [Composite](/Structural/Composite) composes zero-or-more similar objects so that they can be manipulated as one object.
 - [Decorator](/Structural/Decorator) dynamically adds/overrides behaviour in an existing method of an object.
-- [Facade](/Structural/Facade) provides a simplified interface to a large body of code.
+- [Facade](/Structural/Facade) provides a simplified interface to a complex system of classes, library or framework.
 - [Flyweight](/Structural/Flyweight) reduces the cost of creating and manipulating a large number of similar objects.
 - [Proxy](/Structural/Proxy) provides a placeholder for another object to control access, reduce cost, and reduce complexity.
 
 ## [Behavioral](/Behavioral)
 
-Patterns that specifically concern the communication between objects.
+Patterns that specifically concern the communication and the assignment of responsibilities between objects.
 
 - [Chain of Responsibility](/Behavioral/ChainOfResponsibility) delegates commands to a chain of processing objects.
 - [Command](/Behavioral/Command) creates objects which encapsulate actions and parameters.

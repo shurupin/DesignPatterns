@@ -6,7 +6,7 @@ namespace Builder
     {
         static void Main()
         {
-            var myHamburger = new HamburgerBuilder()
+            Hamburger myHamburger = new HamburgerBuilder()
                 .AddBread()
                 .AddMeal()
                 .AddCheese()
@@ -16,7 +16,7 @@ namespace Builder
                 .Build();
             Console.WriteLine($"My hamburger: {myHamburger}");
 
-            var myWifeHamburger = new HamburgerBuilder()
+            Hamburger myWifeHamburger = new HamburgerBuilder()
                 .AddBread()
                 .AddSalad()
                 .Build();
