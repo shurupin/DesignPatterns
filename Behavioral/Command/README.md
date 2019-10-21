@@ -1,0 +1,1 @@
+**Command** is a behavioral design pattern that converts request or simple operation into a stand-alone object that contains all information about the request. This transformation lets you parameterize methods with different requests, delay or queue a request’s execution, storing command history, support undoable operations, etc.

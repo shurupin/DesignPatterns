@@ -3,7 +3,7 @@
 Patterns that specifically concern the communication and the assignment of responsibilities between objects.
 
 - [Chain of Responsibility](/Behavioral/ChainOfResponsibility) delegates commands to a chain of processing objects.
-- [Command](/Behavioral/Command) creates objects which encapsulate actions and parameters.
+- [Command](/Behavioral/Command) converts request into a object which encapsulates actions and parameters.
 - [Iterator](/Behavioral/Iterator) accesses the elements of an object sequentially without exposing its underlying representation.
 - [Mediator](/Behavioral/Mediator) allows loose coupling between classes by being the only class that has detailed knowledge of their methods.
 - [Memento](/Behavioral/Memento) provides the ability to restore an object to its previous state (undo).
