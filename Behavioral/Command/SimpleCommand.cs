@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace Command
+﻿namespace Command
 {
+    using System;
+
     // Some commands can implement simple operations on their own.
     class SimpleCommand : ICommand
     {
@@ -14,7 +14,7 @@ namespace Command
 
         public void Execute()
         {
-            Console.WriteLine($"SimpleCommand: See, I can do simple things like printing ({this._message})");
+            Console.WriteLine(value: $"SimpleCommand: See, I can do simple things like printing ({this._message})");
         }
     }
 }

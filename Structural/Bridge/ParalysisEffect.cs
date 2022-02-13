@@ -1,12 +1,12 @@
-using System;
-
 namespace Bridge
 {
+    using System;
+
     public class ParalysisEffect : IEffect
     {
         public void Apply()
         {
-            Console.WriteLine("Paralysis effect is applied");
+            Console.WriteLine(value: "Paralysis effect is applied");
         }
     }
 }

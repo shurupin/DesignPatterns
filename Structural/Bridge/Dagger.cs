@@ -1,16 +1,16 @@
-﻿using System;
-
-namespace Bridge
+﻿namespace Bridge
 {
+    using System;
+
     class Dagger : Knife
     {
-        public Dagger(IEffect effect) : base(effect)
+        public Dagger(IEffect effect) : base(effect: effect)
         {
         }
 
         public override void Stab()
         {
-            Console.WriteLine("Dagger stabbing");
+            Console.WriteLine(value: "Dagger stabbing");
             this.Effect.Apply();
         }
     }

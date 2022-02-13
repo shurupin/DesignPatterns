@@ -1,7 +1,7 @@
-using System;
-
 namespace Bridge
 {
+    using System;
+
     public class Knife : IWeapon
     {
         protected readonly IEffect Effect;
@@ -13,7 +13,7 @@ namespace Bridge
 
         public virtual void Stab()
         {
-            Console.WriteLine("Knife stabbing");
+            Console.WriteLine(value: "Knife stabbing");
             this.Effect.Apply();
         }
     }

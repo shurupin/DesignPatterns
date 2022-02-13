@@ -1,12 +1,12 @@
-﻿using System;
-
-namespace Adapter
+﻿namespace Adapter
 {
+    using System;
+
     class BlackRaven : IRaven
     {
         public void Croak()
         {
-            Console.WriteLine("Croak Croak Croak");
+            Console.WriteLine(value: "Croak Croak Croak");
         }
     }
 }

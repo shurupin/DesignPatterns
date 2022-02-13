@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace Facade
+﻿namespace Facade
 {
+    using System;
+
     internal static class Program
     {
         private static void Main()

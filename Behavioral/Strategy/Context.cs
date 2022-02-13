@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace Strategy
+﻿namespace Strategy
 {
+    using System;
+
     // The Context defines the interface of interest to clients.
     class Context
     {
@@ -39,8 +39,8 @@ namespace Strategy
         // implementing multiple versions of the algorithm on its own.
         public void ExecuteStrategy()
         {
-            var result = this._strategy.Execute(this._data);
-            Console.WriteLine(result);
+            var result = this._strategy.Execute(data: this._data);
+            Console.WriteLine(value: result);
         }
     }
 }

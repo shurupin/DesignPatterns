@@ -8,10 +8,10 @@
             Invoker invoker = new Invoker();
 
             SimpleCommand simpleCommand = new SimpleCommand(message: "Hello, World!");
-            invoker.SetOnStart(simpleCommand);
+            invoker.SetOnStart(command: simpleCommand);
 
             ComplexCommand complexCommand = new ComplexCommand(receiver: new Receiver(), work1: "Send email", work2: "Save report");
-            invoker.SetOnFinish(complexCommand);
+            invoker.SetOnFinish(command: complexCommand);
 
             invoker.DoSomethingImportant();
         }

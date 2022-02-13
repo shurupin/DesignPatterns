@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace Builder
+﻿namespace Builder
 {
+    using System;
+
     class Program
     {
         static void Main()
@@ -14,13 +14,13 @@ namespace Builder
                 .AddSalad()
                 .AddMayonnaise()
                 .Build();
-            Console.WriteLine($"My hamburger: {myHamburger}");
+            Console.WriteLine(value: $"My hamburger: {myHamburger}");
 
             Hamburger myWifeHamburger = new HamburgerBuilder()
                 .AddBread()
                 .AddSalad()
                 .Build();
-            Console.WriteLine($"My wife's hamburger: {myWifeHamburger}");
+            Console.WriteLine(value: $"My wife's hamburger: {myWifeHamburger}");
         }
     }
 }

@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace Command
+﻿namespace Command
 {
+    using System;
+
     // However, some commands can delegate more complex operations to other objects, called "receivers"
     class ComplexCommand : ICommand
     {
@@ -23,7 +23,7 @@ namespace Command
         // Commands can delegate to any methods of a receiver
         public void Execute()
         {
-            Console.WriteLine("ComplexCommand: Complex stuff should be done by a receiver object.");
+            Console.WriteLine(value: "ComplexCommand: Complex stuff should be done by a receiver object.");
             this._receiver.DoSomething(work1: this._work1);
             this._receiver.DoSomethingElse(work2: this._work2);
         }

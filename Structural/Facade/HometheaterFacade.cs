@@ -5,7 +5,7 @@
         private Dimmer _dimmer;
         private Dvd _dvd;
         private DvdPlayer _dvdPlayer;
-        
+
         public HomeTheatreFacade(Dimmer dimmer, Dvd dvd, DvdPlayer dvdPlayer)
         {
             this._dimmer = dimmer;
@@ -17,7 +17,7 @@
         {
             this._dimmer.Dim(percentValue: 15);
             this._dvdPlayer.On();
-            this._dvdPlayer.Insert(this._dvd);
+            this._dvdPlayer.Insert(dvd: this._dvd);
             this._dvdPlayer.Play();
         }
 

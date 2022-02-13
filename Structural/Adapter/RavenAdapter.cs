@@ -6,12 +6,12 @@
 
         public RavenAdapter(IRaven raven)
         {
-            _raven = raven;
+            this._raven = raven;
         }
 
         public void Quack()
         {
-            _raven.Croak();
+            this._raven.Croak();
         }
     }
 }

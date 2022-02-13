@@ -11,22 +11,22 @@
 
         internal Hamburger(bool hasBread, bool hasMeal, bool hasCheese, bool hasTomato, bool hasSalad, bool hasMayonnaise)
         {
-            HasBread = hasBread;
-            HasMeal = hasMeal;
-            HasCheese = hasCheese;
-            HasTomato = hasTomato;
-            HasSalad = hasSalad;
-            HasMayonnaise = hasMayonnaise;
+            this.HasBread = hasBread;
+            this.HasMeal = hasMeal;
+            this.HasCheese = hasCheese;
+            this.HasTomato = hasTomato;
+            this.HasSalad = hasSalad;
+            this.HasMayonnaise = hasMayonnaise;
         }
 
         public override string ToString()
         {
-            return (HasBread ? "Bread " : string.Empty)
-                + (HasMeal ? "Meal " : string.Empty)
-                + (HasCheese ? "Cheese " : string.Empty)
-                + (HasTomato ? "Tomato " : string.Empty)
-                + (HasSalad ? "Salad " : string.Empty)
-                + (HasMayonnaise ? "Mayonnaise " : string.Empty);
+            return (this.HasBread ? "Bread " : string.Empty)
+                + (this.HasMeal ? "Meal " : string.Empty)
+                + (this.HasCheese ? "Cheese " : string.Empty)
+                + (this.HasTomato ? "Tomato " : string.Empty)
+                + (this.HasSalad ? "Salad " : string.Empty)
+                + (this.HasMayonnaise ? "Mayonnaise " : string.Empty);
         }
     }
 }

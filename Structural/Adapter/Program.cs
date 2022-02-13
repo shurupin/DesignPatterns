@@ -8,7 +8,7 @@
             whiteDuck.Quack();
 
             BlackRaven blackRaven = new BlackRaven();
-            RavenAdapter ravenAdapter = new RavenAdapter(blackRaven);
+            RavenAdapter ravenAdapter = new RavenAdapter(raven: blackRaven);
             ravenAdapter.Quack();
         }
     }

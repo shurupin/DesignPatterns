@@ -1,12 +1,12 @@
-﻿using System;
-
-namespace Adapter
+﻿namespace Adapter
 {
+    using System;
+
     class WhiteDuck : IDuck
     {
         public void Quack()
         {
-            Console.WriteLine("Quack Quack Quack");
+            Console.WriteLine(value: "Quack Quack Quack");
         }
     }
 }

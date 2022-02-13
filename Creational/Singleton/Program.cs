@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace Singleton
+﻿namespace Singleton
 {
+    using System;
+
     class Program
     {
         static void Main()
@@ -11,13 +11,13 @@ namespace Singleton
 
             if (singleton1 == singleton2)
             {
-                Console.WriteLine("Singleton works, both variables refer to the same instance.");
+                Console.WriteLine(value: "Singleton works, both variables refer to the same instance.");
                 singleton1.Increment();
                 singleton2.Increment();
             }
             else
             {
-                Console.WriteLine("Singleton failed, variables refer to different instances.");
+                Console.WriteLine(value: "Singleton failed, variables refer to different instances.");
             }
         }
     }
