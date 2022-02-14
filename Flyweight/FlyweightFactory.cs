@@ -38,7 +38,7 @@
         {
             string key = this.GetKey(car: sharedState);
 
-            if (this.flyweights.All(t => t.Item2 != key))
+            if (this.flyweights.All(predicate: t => t.Item2 != key))
             {
                 Console.WriteLine(value: "FlyweightFactory: Can't find a flyweight, creating new one.");
                 Flyweight flyweight = new(car: sharedState);
@@ -49,7 +49,7 @@
             {
                 Console.WriteLine(value: "FlyweightFactory: Reusing existing flyweight.");
             }
-            return this.flyweights.First(t => t.Item2 == key).Item1;
+            return this.flyweights.First(predicate: t => t.Item2 == key).Item1;
         }
 
         public void ListFlyweights()
