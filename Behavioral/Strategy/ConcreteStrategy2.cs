@@ -7,7 +7,7 @@
         public object Execute(object data)
         {
             //Apply the Strategy's algorithm
-            var result = data.ToString();
+            string result = data.ToString();
             return "Result of ConcreteStrategy2";
         }
     }

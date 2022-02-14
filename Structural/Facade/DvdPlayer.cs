@@ -6,7 +6,7 @@
     {
         private Dvd _dvd;
 
-        private int _time = 0;
+        private int _time;
 
         public void On() => Console.WriteLine(value: "DVD Player powered on");
 

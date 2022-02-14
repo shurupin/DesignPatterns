@@ -39,7 +39,7 @@
         // implementing multiple versions of the algorithm on its own.
         public void ExecuteStrategy()
         {
-            var result = this._strategy.Execute(data: this._data);
+            object result = this._strategy.Execute(data: this._data);
             Console.WriteLine(value: result);
         }
     }
