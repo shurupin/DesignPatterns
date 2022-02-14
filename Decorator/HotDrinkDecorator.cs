@@ -15,7 +15,7 @@
             {
                 if (this._drink.Description.Contains(value: "Hot"))
                 {
-                    return this._drink.Description.Replace("Hot", "Maximum Hot");
+                    return this._drink.Description.Replace(oldValue: "Hot", newValue: "Maximum Hot");
                 }
 
                 return "Hot " + this._drink.Description;

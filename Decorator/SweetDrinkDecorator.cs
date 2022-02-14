@@ -15,7 +15,7 @@
             {
                 if (this._drink.Description.Contains(value: "Sweet"))
                 {
-                    return this._drink.Description.Replace("Sweet", "Super Sweet");
+                    return this._drink.Description.Replace(oldValue: "Sweet", newValue: "Super Sweet");
                 }
 
                 return "Sweet " + this._drink.Description;

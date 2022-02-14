@@ -45,7 +45,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleResponsibilityPrincip
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{4FA470BD-0842-43ED-93AA-925B7D4907E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{842D8E78-E7F5-47A3-B56C-19CDD2A71705}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{842D8E78-E7F5-47A3-B56C-19CDD2A71705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{D2FA73D4-EC89-409D-8C11-C0716754661A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,6 +99,10 @@ Global
 		{842D8E78-E7F5-47A3-B56C-19CDD2A71705}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{842D8E78-E7F5-47A3-B56C-19CDD2A71705}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{842D8E78-E7F5-47A3-B56C-19CDD2A71705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2FA73D4-EC89-409D-8C11-C0716754661A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2FA73D4-EC89-409D-8C11-C0716754661A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2FA73D4-EC89-409D-8C11-C0716754661A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2FA73D4-EC89-409D-8C11-C0716754661A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -113,6 +119,7 @@ Global
 		{CB70C3AC-8A12-4A1E-9D42-0B3164D869D1} = {1C6AB8D1-C7D8-44E7-A2F1-1C87FB77D46F}
 		{4FA470BD-0842-43ED-93AA-925B7D4907E9} = {358512E5-F679-47E5-A849-5965FF51F617}
 		{842D8E78-E7F5-47A3-B56C-19CDD2A71705} = {358512E5-F679-47E5-A849-5965FF51F617}
+		{D2FA73D4-EC89-409D-8C11-C0716754661A} = {358512E5-F679-47E5-A849-5965FF51F617}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BF5F0596-3475-4849-AC60-FC7024DFFDC2}
