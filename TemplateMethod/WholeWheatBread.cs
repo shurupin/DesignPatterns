@@ -4,12 +4,12 @@
     {
         protected override void MixIngredients()
         {
-            Console.WriteLine("Gathering ingredients for whole wheat bread.");
+            Console.WriteLine(value: "Gathering ingredients for whole wheat bread.");
         }
 
         protected override void Bake()
         {
-            Console.WriteLine("Baking the whole wheat bread for 20 minutes.");
+            Console.WriteLine(value: "Baking the whole wheat bread for 20 minutes.");
         }
     }
 }

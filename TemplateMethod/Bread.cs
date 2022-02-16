@@ -16,7 +16,7 @@
 
         protected virtual void Slice()
         {
-            Console.WriteLine($"Slicing the {this.GetType().Name}!");
+            Console.WriteLine(value: $"Slicing the {this.GetType().Name}!");
         }
     }
 }
